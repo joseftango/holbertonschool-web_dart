@@ -1,5 +1,5 @@
 
 void main() {
-  var n = 3.14159265359.toStringAsFixed(2);
-  print('Double: $n\n');
+  var n = 3.14159265359;
+  print('Double: ${n.toStringAsFixed(2)}\n');
 }
