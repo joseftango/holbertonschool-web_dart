@@ -1,8 +1,6 @@
-Future<int> fetchUsersCount() => Future.delayed(
-      const Duration(seconds: 2),
-      () => 19,
-    );
 
+Future<int> fetchUsersCount() => Future.delayed( Duration(seconds: 2), () => 19 );
 usersCount() async {
-  print(await fetchUsersCount());
+  int count = await fetchUsersCount();
+  print(count);
 }
