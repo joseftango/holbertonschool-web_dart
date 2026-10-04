@@ -1,5 +1,4 @@
 void main() {
   var n = 98;
-  String str = "Battery street";
-  print('$n $str \n');
+  print('$n Battery street\n');
 }
