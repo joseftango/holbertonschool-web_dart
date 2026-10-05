@@ -1,9 +1,6 @@
 
 class User {
-  String? name;
+  late String name;
 
-  String showName() {
-    return 'Hello $name';
-  }
-
+  showName() => 'Hello $name';
 }
